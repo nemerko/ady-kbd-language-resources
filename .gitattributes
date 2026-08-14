@@ -1,0 +1,6 @@
+# Line endings are normalised to LF, both in the repository and in the working
+# tree, so that a checkout produces the same bytes on every platform and with
+# every client. This is recorded here rather than in a per-machine git setting
+# so that it cannot be lost by cloning somewhere else.
+
+* text=auto eol=lf

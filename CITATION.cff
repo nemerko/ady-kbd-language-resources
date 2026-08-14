@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: Adyghe & Kabardian Language Resources
+message: >-
+  If you use these resources, please cite the individual file you used
+  (see its `cite-as` field) and, where relevant, this repository.
+type: dataset
+authors:
+  - given-names: M. Uğur
+    family-names: Nemlioğlu
+    orcid: https://orcid.org/0000-0002-1969-2356
+repository-code: https://github.com/nemerko/ady-kbd-language-resources
+url: https://github.com/nemerko/ady-kbd-language-resources
+abstract: >-
+  Reference material for the Circassian languages Adyghe (ady) and Kabardian
+  (kbd): transliteration tables between Cyrillic and Turkish Latin, and related
+  documentation. Every character is given with its Unicode codepoint so that the
+  palochka (U+04C0 / U+04CF) cannot be confused with the Latin characters
+  commonly typed in its place.
+keywords:
+  - Adyghe
+  - Kabardian
+  - Circassian
+  - transliteration
+  - endangered languages
+  - language resources
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-08-14

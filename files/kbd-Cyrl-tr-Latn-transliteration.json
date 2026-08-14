@@ -1,0 +1,756 @@
+{
+  "format_version": "1.0",
+  "id": "kbd-Cyrl-tr-Latn-transliteration",
+  "title": "Kabardian (kbd) Cyrillic ↔ Turkish (tr) Latin Transliteration Table",
+  "description": "A grapheme-and-phoneme oriented mapping between the Kabardian Cyrillic alphabet and Turkish Latin letters, designed so that the conversion can also be reversed.",
+  "version": "1.0.0",
+  "updated": "2026-08-14",
+  "status": "stable",
+  "source": "kbd-Cyrl",
+  "target": "tr-Latn",
+  "transform": "tr-Latn-t-kbd-Cyrl",
+  "reverse_transform": "kbd-Cyrl-t-tr-Latn",
+  "transform_standard": "BCP 47 Extension T (RFC 6497)",
+  "documentation": "./kbd-Cyrl-tr-Latn-transliteration.md",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "authors": [
+    {
+      "name": "M. Uğur Nemlioğlu",
+      "orcid": "0000-0002-1969-2356"
+    }
+  ],
+  "cite_as": "Nemlioğlu, M. U. (2026). Kabardian (kbd) Cyrillic ↔ Turkish (tr) Latin Transliteration Table (Version 1.0.0) [Data set]. ady-kbd-language-resources. https://github.com/nemerko/ady-kbd-language-resources",
+  "unicode_normalisation": "NFC",
+  "characters_of_note": {
+    "palochka_upper": "Ӏ",
+    "palochka_lower": "ӏ",
+    "note": "U+04C0 and U+04CF. Never the Latin capital I (U+0049), the Latin small l (U+006C) or the digit 1 (U+0031)."
+  },
+  "rules": {
+    "order": "Sort by the length of the source string, longest first, in whichever direction you are converting. The arrays below are in alphabetical order and must not be applied in that order.",
+    "drop_if_unmatched": [
+      "ъ",
+      "ь"
+    ],
+    "context_dependent": "Entries listed in \"context_dependent\" take the given form at the start of a word and the form in \"main\" everywhere else.",
+    "all_caps": "The upper-case columns are recorded for reference; the conversion has not been exercised on all-caps text.",
+    "auxiliary": "\"auxiliary\" letters are not part of the official alphabet and are kept out of \"main\". Include them only when the material contains the dialect they belong to."
+  },
+  "main": [
+    {
+      "n": 1,
+      "alphabet_index": 1,
+      "in_alphabet": true,
+      "cyrl_lower": "а",
+      "latn_lower": "a",
+      "cyrl_title": "А",
+      "latn_title": "A",
+      "cyrl_upper": "А",
+      "latn_upper": "A"
+    },
+    {
+      "n": 2,
+      "alphabet_index": 2,
+      "in_alphabet": true,
+      "cyrl_lower": "э",
+      "latn_lower": "e",
+      "cyrl_title": "Э",
+      "latn_title": "E",
+      "cyrl_upper": "Э",
+      "latn_upper": "E"
+    },
+    {
+      "n": 3,
+      "alphabet_index": 3,
+      "in_alphabet": true,
+      "cyrl_lower": "б",
+      "latn_lower": "b",
+      "cyrl_title": "Б",
+      "latn_title": "B",
+      "cyrl_upper": "Б",
+      "latn_upper": "B"
+    },
+    {
+      "n": 4,
+      "alphabet_index": 4,
+      "in_alphabet": true,
+      "cyrl_lower": "в",
+      "latn_lower": "v",
+      "cyrl_title": "В",
+      "latn_title": "V",
+      "cyrl_upper": "В",
+      "latn_upper": "V"
+    },
+    {
+      "n": 5,
+      "alphabet_index": 5,
+      "in_alphabet": true,
+      "cyrl_lower": "г",
+      "latn_lower": "g",
+      "cyrl_title": "Г",
+      "latn_title": "G",
+      "cyrl_upper": "Г",
+      "latn_upper": "G"
+    },
+    {
+      "n": 6,
+      "alphabet_index": 6,
+      "in_alphabet": true,
+      "cyrl_lower": "гу",
+      "latn_lower": "gu",
+      "cyrl_title": "Гу",
+      "latn_title": "Gu",
+      "cyrl_upper": "ГУ",
+      "latn_upper": "GU"
+    },
+    {
+      "n": 7,
+      "alphabet_index": 7,
+      "in_alphabet": true,
+      "cyrl_lower": "гъ",
+      "latn_lower": "ğ",
+      "cyrl_title": "Гъ",
+      "latn_title": "Ğ",
+      "cyrl_upper": "ГЪ",
+      "latn_upper": "Ğ"
+    },
+    {
+      "n": 8,
+      "alphabet_index": 8,
+      "in_alphabet": true,
+      "cyrl_lower": "гъу",
+      "latn_lower": "ğu",
+      "cyrl_title": "Гъу",
+      "latn_title": "Ğu",
+      "cyrl_upper": "ГЪУ",
+      "latn_upper": "ĞU"
+    },
+    {
+      "n": 9,
+      "alphabet_index": 9,
+      "in_alphabet": true,
+      "cyrl_lower": "д",
+      "latn_lower": "d",
+      "cyrl_title": "Д",
+      "latn_title": "D",
+      "cyrl_upper": "Д",
+      "latn_upper": "D"
+    },
+    {
+      "n": 10,
+      "alphabet_index": 10,
+      "in_alphabet": true,
+      "cyrl_lower": "дж",
+      "latn_lower": "c",
+      "cyrl_title": "Дж",
+      "latn_title": "C",
+      "cyrl_upper": "ДЖ",
+      "latn_upper": "C"
+    },
+    {
+      "n": 11,
+      "alphabet_index": 11,
+      "in_alphabet": true,
+      "cyrl_lower": "дз",
+      "latn_lower": "dz",
+      "cyrl_title": "Дз",
+      "latn_title": "Dz",
+      "cyrl_upper": "ДЗ",
+      "latn_upper": "DZ"
+    },
+    {
+      "n": 12,
+      "alphabet_index": 12,
+      "in_alphabet": true,
+      "cyrl_lower": "е",
+      "latn_lower": "ê",
+      "cyrl_title": "Е",
+      "latn_title": "Ê",
+      "cyrl_upper": "Е",
+      "latn_upper": "Ê"
+    },
+    {
+      "n": 13,
+      "alphabet_index": 13,
+      "in_alphabet": true,
+      "cyrl_lower": "ё",
+      "latn_lower": "ö",
+      "cyrl_title": "Ё",
+      "latn_title": "Ö",
+      "cyrl_upper": "Ё",
+      "latn_upper": "Ö"
+    },
+    {
+      "n": 14,
+      "alphabet_index": 14,
+      "in_alphabet": true,
+      "cyrl_lower": "ж",
+      "latn_lower": "jj",
+      "cyrl_title": "Ж",
+      "latn_title": "Jj",
+      "cyrl_upper": "Ж",
+      "latn_upper": "JJ"
+    },
+    {
+      "n": 15,
+      "alphabet_index": 15,
+      "in_alphabet": true,
+      "cyrl_lower": "жь",
+      "latn_lower": "j",
+      "cyrl_title": "Жь",
+      "latn_title": "J",
+      "cyrl_upper": "ЖЬ",
+      "latn_upper": "J"
+    },
+    {
+      "n": 16,
+      "alphabet_index": 16,
+      "in_alphabet": true,
+      "cyrl_lower": "з",
+      "latn_lower": "z",
+      "cyrl_title": "З",
+      "latn_title": "Z",
+      "cyrl_upper": "З",
+      "latn_upper": "Z"
+    },
+    {
+      "n": 17,
+      "alphabet_index": 17,
+      "in_alphabet": true,
+      "cyrl_lower": "и",
+      "latn_lower": "i",
+      "cyrl_title": "И",
+      "latn_title": "İ",
+      "cyrl_upper": "И",
+      "latn_upper": "İ"
+    },
+    {
+      "n": 18,
+      "alphabet_index": 18,
+      "in_alphabet": true,
+      "cyrl_lower": "й",
+      "latn_lower": "y",
+      "cyrl_title": "Й",
+      "latn_title": "Y",
+      "cyrl_upper": "Й",
+      "latn_upper": "Y"
+    },
+    {
+      "n": 19,
+      "alphabet_index": 19,
+      "in_alphabet": true,
+      "cyrl_lower": "к",
+      "latn_lower": "k",
+      "cyrl_title": "К",
+      "latn_title": "K",
+      "cyrl_upper": "К",
+      "latn_upper": "K"
+    },
+    {
+      "n": 20,
+      "alphabet_index": 20,
+      "in_alphabet": true,
+      "cyrl_lower": "ку",
+      "latn_lower": "ku",
+      "cyrl_title": "Ку",
+      "latn_title": "Ku",
+      "cyrl_upper": "КУ",
+      "latn_upper": "KU"
+    },
+    {
+      "n": 21,
+      "alphabet_index": 21,
+      "in_alphabet": true,
+      "cyrl_lower": "къ",
+      "latn_lower": "kh",
+      "cyrl_title": "Къ",
+      "latn_title": "Kh",
+      "cyrl_upper": "КЪ",
+      "latn_upper": "KH"
+    },
+    {
+      "n": 22,
+      "alphabet_index": 22,
+      "in_alphabet": true,
+      "cyrl_lower": "къу",
+      "latn_lower": "khu",
+      "cyrl_title": "Къу",
+      "latn_title": "Khu",
+      "cyrl_upper": "КЪУ",
+      "latn_upper": "KHU"
+    },
+    {
+      "n": 23,
+      "alphabet_index": 23,
+      "in_alphabet": true,
+      "cyrl_lower": "кхъ",
+      "latn_lower": "kxh",
+      "cyrl_title": "Кхъ",
+      "latn_title": "Kxh",
+      "cyrl_upper": "КХЪ",
+      "latn_upper": "KXH"
+    },
+    {
+      "n": 24,
+      "alphabet_index": 24,
+      "in_alphabet": true,
+      "cyrl_lower": "кхъу",
+      "latn_lower": "kxhu",
+      "cyrl_title": "Кхъу",
+      "latn_title": "Kxhu",
+      "cyrl_upper": "КХЪУ",
+      "latn_upper": "KXHU"
+    },
+    {
+      "n": 25,
+      "alphabet_index": 25,
+      "in_alphabet": true,
+      "cyrl_lower": "кӏ",
+      "latn_lower": "ç'",
+      "cyrl_title": "Кӏ",
+      "latn_title": "Ç'",
+      "cyrl_upper": "КӀ",
+      "latn_upper": "Ç'"
+    },
+    {
+      "n": 26,
+      "alphabet_index": 26,
+      "in_alphabet": true,
+      "cyrl_lower": "кӏу",
+      "latn_lower": "k'u",
+      "cyrl_title": "Кӏу",
+      "latn_title": "K'u",
+      "cyrl_upper": "КӀУ",
+      "latn_upper": "K'U"
+    },
+    {
+      "n": 27,
+      "alphabet_index": 27,
+      "in_alphabet": true,
+      "cyrl_lower": "л",
+      "latn_lower": "l",
+      "cyrl_title": "Л",
+      "latn_title": "L",
+      "cyrl_upper": "Л",
+      "latn_upper": "L"
+    },
+    {
+      "n": 28,
+      "alphabet_index": 28,
+      "in_alphabet": true,
+      "cyrl_lower": "лъ",
+      "latn_lower": "lh",
+      "cyrl_title": "Лъ",
+      "latn_title": "Lh",
+      "cyrl_upper": "ЛЪ",
+      "latn_upper": "LH"
+    },
+    {
+      "n": 29,
+      "alphabet_index": 29,
+      "in_alphabet": true,
+      "cyrl_lower": "лӏ",
+      "latn_lower": "lh'",
+      "cyrl_title": "Лӏ",
+      "latn_title": "Lh'",
+      "cyrl_upper": "ЛӀ",
+      "latn_upper": "LH'"
+    },
+    {
+      "n": 30,
+      "alphabet_index": 30,
+      "in_alphabet": true,
+      "cyrl_lower": "м",
+      "latn_lower": "m",
+      "cyrl_title": "М",
+      "latn_title": "M",
+      "cyrl_upper": "М",
+      "latn_upper": "M"
+    },
+    {
+      "n": 31,
+      "alphabet_index": 31,
+      "in_alphabet": true,
+      "cyrl_lower": "н",
+      "latn_lower": "n",
+      "cyrl_title": "Н",
+      "latn_title": "N",
+      "cyrl_upper": "Н",
+      "latn_upper": "N"
+    },
+    {
+      "n": 32,
+      "alphabet_index": 32,
+      "in_alphabet": true,
+      "cyrl_lower": "о",
+      "latn_lower": "o",
+      "cyrl_title": "О",
+      "latn_title": "O",
+      "cyrl_upper": "О",
+      "latn_upper": "O"
+    },
+    {
+      "n": 33,
+      "alphabet_index": 33,
+      "in_alphabet": true,
+      "cyrl_lower": "п",
+      "latn_lower": "p",
+      "cyrl_title": "П",
+      "latn_title": "P",
+      "cyrl_upper": "П",
+      "latn_upper": "P"
+    },
+    {
+      "n": 34,
+      "alphabet_index": 34,
+      "in_alphabet": true,
+      "cyrl_lower": "пӏ",
+      "latn_lower": "p'",
+      "cyrl_title": "Пӏ",
+      "latn_title": "P'",
+      "cyrl_upper": "ПӀ",
+      "latn_upper": "P'"
+    },
+    {
+      "n": 35,
+      "alphabet_index": 35,
+      "in_alphabet": true,
+      "cyrl_lower": "р",
+      "latn_lower": "r",
+      "cyrl_title": "Р",
+      "latn_title": "R",
+      "cyrl_upper": "Р",
+      "latn_upper": "R"
+    },
+    {
+      "n": 36,
+      "alphabet_index": 36,
+      "in_alphabet": true,
+      "cyrl_lower": "с",
+      "latn_lower": "s",
+      "cyrl_title": "С",
+      "latn_title": "S",
+      "cyrl_upper": "С",
+      "latn_upper": "S"
+    },
+    {
+      "n": 37,
+      "alphabet_index": 37,
+      "in_alphabet": true,
+      "cyrl_lower": "т",
+      "latn_lower": "t",
+      "cyrl_title": "Т",
+      "latn_title": "T",
+      "cyrl_upper": "Т",
+      "latn_upper": "T"
+    },
+    {
+      "n": 38,
+      "alphabet_index": 38,
+      "in_alphabet": true,
+      "cyrl_lower": "тӏ",
+      "latn_lower": "t'",
+      "cyrl_title": "Тӏ",
+      "latn_title": "T'",
+      "cyrl_upper": "ТӀ",
+      "latn_upper": "T'"
+    },
+    {
+      "n": 39,
+      "alphabet_index": 39,
+      "in_alphabet": true,
+      "cyrl_lower": "у",
+      "latn_lower": "u",
+      "cyrl_title": "У",
+      "latn_title": "U",
+      "cyrl_upper": "У",
+      "latn_upper": "U"
+    },
+    {
+      "n": 40,
+      "alphabet_index": 40,
+      "in_alphabet": true,
+      "cyrl_lower": "ф",
+      "latn_lower": "f",
+      "cyrl_title": "Ф",
+      "latn_title": "F",
+      "cyrl_upper": "Ф",
+      "latn_upper": "F"
+    },
+    {
+      "n": 41,
+      "alphabet_index": 41,
+      "in_alphabet": true,
+      "cyrl_lower": "фӏ",
+      "latn_lower": "f'",
+      "cyrl_title": "Фӏ",
+      "latn_title": "F'",
+      "cyrl_upper": "ФӀ",
+      "latn_upper": "F'"
+    },
+    {
+      "n": 42,
+      "alphabet_index": 42,
+      "in_alphabet": true,
+      "cyrl_lower": "х",
+      "latn_lower": "x",
+      "cyrl_title": "Х",
+      "latn_title": "X",
+      "cyrl_upper": "Х",
+      "latn_upper": "X"
+    },
+    {
+      "n": 43,
+      "alphabet_index": 43,
+      "in_alphabet": true,
+      "cyrl_lower": "ху",
+      "latn_lower": "xu",
+      "cyrl_title": "Ху",
+      "latn_title": "Xu",
+      "cyrl_upper": "ХУ",
+      "latn_upper": "XU"
+    },
+    {
+      "n": 44,
+      "alphabet_index": 44,
+      "in_alphabet": true,
+      "cyrl_lower": "хъ",
+      "latn_lower": "xh",
+      "cyrl_title": "Хъ",
+      "latn_title": "Xh",
+      "cyrl_upper": "ХЪ",
+      "latn_upper": "XH"
+    },
+    {
+      "n": 45,
+      "alphabet_index": 45,
+      "in_alphabet": true,
+      "cyrl_lower": "хъу",
+      "latn_lower": "xhu",
+      "cyrl_title": "Хъу",
+      "latn_title": "Xhu",
+      "cyrl_upper": "ХЪУ",
+      "latn_upper": "XHU"
+    },
+    {
+      "n": 46,
+      "alphabet_index": 46,
+      "in_alphabet": true,
+      "cyrl_lower": "хь",
+      "latn_lower": "h",
+      "cyrl_title": "Хь",
+      "latn_title": "H",
+      "cyrl_upper": "ХЬ",
+      "latn_upper": "H"
+    },
+    {
+      "n": 47,
+      "alphabet_index": 47,
+      "in_alphabet": true,
+      "cyrl_lower": "ц",
+      "latn_lower": "ts",
+      "cyrl_title": "Ц",
+      "latn_title": "Ts",
+      "cyrl_upper": "Ц",
+      "latn_upper": "TS"
+    },
+    {
+      "n": 48,
+      "alphabet_index": 48,
+      "in_alphabet": true,
+      "cyrl_lower": "цӏ",
+      "latn_lower": "ts'",
+      "cyrl_title": "Цӏ",
+      "latn_title": "Ts'",
+      "cyrl_upper": "ЦӀ",
+      "latn_upper": "TS'"
+    },
+    {
+      "n": 49,
+      "alphabet_index": 49,
+      "in_alphabet": true,
+      "cyrl_lower": "ч",
+      "latn_lower": "ç",
+      "cyrl_title": "Ч",
+      "latn_title": "Ç",
+      "cyrl_upper": "Ч",
+      "latn_upper": "Ç"
+    },
+    {
+      "n": 50,
+      "alphabet_index": 50,
+      "in_alphabet": true,
+      "cyrl_lower": "ш",
+      "latn_lower": "şş",
+      "cyrl_title": "Ш",
+      "latn_title": "Şş",
+      "cyrl_upper": "Ш",
+      "latn_upper": "ŞŞ"
+    },
+    {
+      "n": 51,
+      "alphabet_index": 51,
+      "in_alphabet": true,
+      "cyrl_lower": "щ",
+      "latn_lower": "ş",
+      "cyrl_title": "Щ",
+      "latn_title": "Ş",
+      "cyrl_upper": "Щ",
+      "latn_upper": "Ş"
+    },
+    {
+      "n": 52,
+      "alphabet_index": 52,
+      "in_alphabet": true,
+      "cyrl_lower": "щӏ",
+      "latn_lower": "ş'",
+      "cyrl_title": "Щӏ",
+      "latn_title": "Ş'",
+      "cyrl_upper": "ЩӀ",
+      "latn_upper": "Ş'"
+    },
+    {
+      "n": 53,
+      "alphabet_index": 53,
+      "in_alphabet": true,
+      "cyrl_lower": "ъ",
+      "latn_lower": "",
+      "cyrl_title": "Ъ",
+      "latn_title": "",
+      "cyrl_upper": "Ъ",
+      "latn_upper": ""
+    },
+    {
+      "n": 54,
+      "alphabet_index": 54,
+      "in_alphabet": true,
+      "cyrl_lower": "ы",
+      "latn_lower": "ı",
+      "cyrl_title": "Ы",
+      "latn_title": "I",
+      "cyrl_upper": "Ы",
+      "latn_upper": "I"
+    },
+    {
+      "n": 55,
+      "alphabet_index": 55,
+      "in_alphabet": true,
+      "cyrl_lower": "ь",
+      "latn_lower": "",
+      "cyrl_title": "Ь",
+      "latn_title": "",
+      "cyrl_upper": "Ь",
+      "latn_upper": ""
+    },
+    {
+      "n": 56,
+      "alphabet_index": 56,
+      "in_alphabet": true,
+      "cyrl_lower": "ю",
+      "latn_lower": "ü",
+      "cyrl_title": "Ю",
+      "latn_title": "Ü",
+      "cyrl_upper": "Ю",
+      "latn_upper": "Ü"
+    },
+    {
+      "n": 57,
+      "alphabet_index": 57,
+      "in_alphabet": true,
+      "cyrl_lower": "я",
+      "latn_lower": "ya",
+      "cyrl_title": "Я",
+      "latn_title": "Ya",
+      "cyrl_upper": "Я",
+      "latn_upper": "YA"
+    },
+    {
+      "n": 58,
+      "alphabet_index": 58,
+      "in_alphabet": true,
+      "cyrl_lower": "ӏ",
+      "latn_lower": "'",
+      "cyrl_title": "Ӏ",
+      "latn_title": "'",
+      "cyrl_upper": "Ӏ",
+      "latn_upper": "'"
+    }
+  ],
+  "context_dependent": [
+    {
+      "n": 12,
+      "cyrl_lower": "е",
+      "latn_lower": "yê",
+      "latn_title": "Yê",
+      "latn_upper": "YÊ"
+    },
+    {
+      "n": 13,
+      "cyrl_lower": "ё",
+      "latn_lower": "yö",
+      "latn_title": "Yö",
+      "latn_upper": "YÖ"
+    },
+    {
+      "n": 17,
+      "cyrl_lower": "и",
+      "latn_lower": "yi",
+      "latn_title": "Yi",
+      "latn_upper": "Yİ"
+    },
+    {
+      "n": 32,
+      "cyrl_lower": "о",
+      "latn_lower": "vo",
+      "latn_title": "Vo",
+      "latn_upper": "VO"
+    },
+    {
+      "n": 39,
+      "cyrl_lower": "у",
+      "latn_lower": "vu",
+      "latn_title": "Vu",
+      "latn_upper": "VU"
+    },
+    {
+      "n": 56,
+      "cyrl_lower": "ю",
+      "latn_lower": "yü",
+      "latn_title": "Yü",
+      "latn_upper": "YÜ"
+    }
+  ],
+  "auxiliary": [
+    {
+      "n": 1,
+      "dialect": "some sub-dialects",
+      "cyrl_lower": "гь",
+      "latn_lower": "gg",
+      "cyrl_title": "Гь",
+      "latn_title": "Gg",
+      "cyrl_upper": "ГЬ",
+      "latn_upper": "GG"
+    },
+    {
+      "n": 2,
+      "dialect": "some sub-dialects",
+      "cyrl_lower": "кь",
+      "latn_lower": "kk",
+      "cyrl_title": "Кь",
+      "latn_title": "Kk",
+      "cyrl_upper": "КЬ",
+      "latn_upper": "KK"
+    },
+    {
+      "n": 3,
+      "dialect": "some sub-dialects",
+      "cyrl_lower": "кӏь",
+      "latn_lower": "kk'",
+      "cyrl_title": "Кӏь",
+      "latn_title": "Kk'",
+      "cyrl_upper": "КӀЬ",
+      "latn_upper": "KK'"
+    }
+  ]
+}

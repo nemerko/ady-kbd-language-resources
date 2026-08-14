@@ -1,0 +1,21 @@
+# Nothing is published unless it is listed here.
+#
+# Default-deny: every entry at the repository root is excluded, and the
+# published files are re-included one by one below. Anything else that ends up
+# in this working directory — drafts, working material, editor folders — stays
+# out of the repository automatically, without having to be named.
+
+/*
+
+!/.gitignore
+!/.gitattributes
+!/LICENSE
+!/README.md
+!/CHANGELOG.md
+!/CITATION.cff
+!/files/
+
+# OS and editor noise inside published folders
+~$*
+.DS_Store
+Thumbs.db
