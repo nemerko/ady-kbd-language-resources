@@ -9,6 +9,7 @@
 
 !/.gitignore
 !/.gitattributes
+!/.zenodo.json
 !/LICENSE
 !/README.md
 !/CHANGELOG.md
