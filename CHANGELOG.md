@@ -12,6 +12,25 @@ data. Any entry that changes the result of processing carries the marker
 
 ---
 
+## [1.1.0] — 2026-09-15
+
+### Added
+
+- `files/ady-Cyrl-alphabet.md` (1.0.0) and `files/ady-Cyrl-alphabet.json` (1.0.0):
+  the Adyghe alphabet as a resource of its own — 66 letters in alphabetical order
+  with their lower-, title- and upper-case forms, 3 auxiliary letters, and the
+  derived inventory of 34 distinct characters.
+- `files/kbd-Cyrl-alphabet.md` (1.0.0) and `files/kbd-Cyrl-alphabet.json` (1.0.0):
+  the same for Kabardian — 59 letters, 3 auxiliary letters, 34 characters.
+
+### Changed
+
+- `README.md`: planned files are now listed without a target release number. A
+  frozen release should not carry a promise that a later change of plan would
+  falsify; the IPA tables are listed as planned, without a version.
+
+---
+
 ## [1.0.0] — 2026-08-14
 
 First release. Everything in it is new, so there is nothing to fix, change or

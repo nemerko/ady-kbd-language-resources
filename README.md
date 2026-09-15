@@ -1,12 +1,15 @@
 # Adyghe & Kabardian Language Resources
 
 Reference material for the Circassian languages **Adyghe (`ady`)** and **Kabardian (`kbd`)**:
-transliteration tables and related documentation, published as plain, citable
-Markdown files. IPA correspondence tables are in preparation for release 1.1.0.
+alphabets, transliteration tables and related documentation, published as plain,
+citable Markdown files. IPA correspondence tables are in preparation.
 
 The material here is released under **CC BY 4.0** — it may be reused, adapted and built upon
 by anyone, provided attribution is given. It is deliberately kept separate from the software
 that consumes it, so that the language data itself carries no usage restrictions.
+
+This repository is part of M. Uğur Nemlioğlu's doctoral research on digital language
+planning for Adyghe and Kabardian.
 
 ---
 
@@ -14,19 +17,25 @@ that consumes it, so that the language data itself carries no usage restrictions
 
 | File | Type | Version | Status | Description |
 |---|---|---|---|---|
+| [`ady-Cyrl-alphabet`](files/ady-Cyrl-alphabet.md) | alphabet | 1.0.0 | stable | The Adyghe alphabet: letters, order, case forms |
+| [`kbd-Cyrl-alphabet`](files/kbd-Cyrl-alphabet.md) | alphabet | 1.0.0 | stable | The Kabardian alphabet: letters, order, case forms |
+| [`ady-Cyrl-alphabet.json`](files/ady-Cyrl-alphabet.json) | machine-readable | 1.0.0 | stable | The Adyghe alphabet as data |
+| [`kbd-Cyrl-alphabet.json`](files/kbd-Cyrl-alphabet.json) | machine-readable | 1.0.0 | stable | The Kabardian alphabet as data |
 | [`ady-Cyrl-tr-Latn-transliteration`](files/ady-Cyrl-tr-Latn-transliteration.md) | transliteration table | 1.0.0 | stable | Adyghe Cyrillic ↔ Turkish Latin |
 | [`kbd-Cyrl-tr-Latn-transliteration`](files/kbd-Cyrl-tr-Latn-transliteration.md) | transliteration table | 1.0.0 | stable | Kabardian Cyrillic ↔ Turkish Latin |
 | [`ady-Cyrl-tr-Latn-transliteration.json`](files/ady-Cyrl-tr-Latn-transliteration.json) | machine-readable | 1.0.0 | stable | The Adyghe table as data |
 | [`kbd-Cyrl-tr-Latn-transliteration.json`](files/kbd-Cyrl-tr-Latn-transliteration.json) | machine-readable | 1.0.0 | stable | The Kabardian table as data |
-| `ady-Cyrl-ipa` | IPA table | — | planned 1.1.0 | Sound value of each Adyghe letter |
-| `kbd-Cyrl-ipa` | IPA table | — | planned 1.1.0 | Sound value of each Kabardian letter |
+| `ady-Cyrl-ipa` | IPA table | — | planned | Sound value of each Adyghe letter |
+| `kbd-Cyrl-ipa` | IPA table | — | planned | Sound value of each Kabardian letter |
 
 *(Version and status are taken from the front matter of each file at release time.)*
 
 Planned files are listed before they exist, for the same reason pending rows are
 kept inside the tables: a gap that is visible can be cited and tracked, a gap
-that is hidden cannot. A released version is never modified, so files announced
-here arrive in the next release rather than being added to this one.
+that is hidden cannot. They are listed without a target version: a frozen release
+should not carry a promise that a later change of plan would falsify. A released
+version is never modified, so files announced here arrive in a later release
+rather than being added to this one.
 
 ---
 

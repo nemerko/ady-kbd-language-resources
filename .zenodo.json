@@ -3,7 +3,7 @@
   "access_right": "open",
   "language": "eng",
   "title": "Adyghe & Kabardian Language Resources",
-  "description": "Reference material for the Circassian languages Adyghe (ady) and Kabardian (kbd): transliteration tables between Cyrillic and Turkish Latin, and related documentation. Every character is given with its Unicode codepoint so that the palochka (U+04C0 / U+04CF) cannot be confused with the Latin characters commonly typed in its place.",
+  "description": "Reference material for the Circassian languages Adyghe (ady) and Kabardian (kbd): the alphabets, transliteration tables between Cyrillic and Turkish Latin, and related documentation. Every character is given with its Unicode codepoint so that the palochka (U+04C0 / U+04CF) cannot be confused with the Latin characters commonly typed in its place.",
   "creators": [
     {
       "name": "Nemlioğlu, M. Uğur",
@@ -15,6 +15,7 @@
     "Adyghe",
     "Kabardian",
     "Circassian",
+    "alphabet",
     "transliteration",
     "Cyrillic",
     "Latin script",
