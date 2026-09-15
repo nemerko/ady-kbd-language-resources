@@ -4,6 +4,8 @@ Reference material for the Circassian languages **Adyghe (`ady`)** and **Kabardi
 alphabets, transliteration tables and related documentation, published as plain,
 citable Markdown files. IPA correspondence tables are in preparation.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21940474.svg)](https://doi.org/10.5281/zenodo.21940474)
+
 The material here is released under **CC BY 4.0** — it may be reused, adapted and built upon
 by anyone, provided attribution is given. It is deliberately kept separate from the software
 that consumes it, so that the language data itself carries no usage restrictions.
@@ -95,8 +97,14 @@ a specific table, and the repository when you refer to the collection as a whole
 
 A `CITATION.cff` file is provided; GitHub renders it as a **“Cite this repository”** button.
 
-When a release is archived, cite the version you actually used — mappings can change between
-versions, and results are not comparable across a major version boundary.
+Releases are archived on Zenodo:
+
+- **Concept DOI** — always resolves to the latest version:
+  [10.5281/zenodo.21940474](https://doi.org/10.5281/zenodo.21940474)
+- **Version 1.1.0**: [10.5281/zenodo.22773866](https://doi.org/10.5281/zenodo.22773866)
+
+Cite the version you actually used — mappings can change between versions, and results
+are not comparable across a major version boundary.
 
 ---
 
